@@ -35,7 +35,7 @@ What is included with The Smart Spot Starter Kit:
    2. Starter Kit firmware
       * Physical Web
       * Crowd Monitoring
-      * LwM2M server
+      * LwM2M client
       * Integration with I2C sensor
       * GPIO driver
    3. [Expansion Board](http://www.hopu.eu/):  
