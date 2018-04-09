@@ -89,7 +89,7 @@ This chapter is a guide for Windows users. In case you use another OS, you can f
       
       ~~~
 
-      $ export IDF\_PATH=&quot;C:/msys32/home/user-name/esp/esp-idf&quot;
+      $ export IDF\_PATH=&quot;C:/msys32/home/<user-name>/esp/esp-idf&quot;
 
       ~~~
 
@@ -129,11 +129,11 @@ This chapter is a guide for Windows users. In case you use another OS, you can f
 
       $ python 
       /c/Users/HOPU/GitHub/espidf/components/esptool_py/esptool/esptool.py --chip esp32 
-      --port COMX --baud 115200 --before default_reset --after hard_reset 
+      --port **COMX** --baud 115200 --before default_reset --after hard_reset 
       write_flash -z --flash_mode dio --flash_freq 40m --flash_size detect 0x1000      
-      C:/Users/HOPU/GitHub/SmartSpot_SmartSDK_Firmware/bootloader.bin 0x10000
-      C:/Users/HOPU/GitHub/SmartSpot_SmartSDK_Firmware/smartspot-esp32.bin 0x8000            
-      C:/Users/HOPU/GitHub/SmartSpot_SmartSDK_Firmware/partitions_singleapp.bin
+      **C:/Users/HOPU/GitHub/SmartSpot_SmartSDK_Firmware/bootloader.bin** 0x10000
+      **C:/Users/HOPU/GitHub/SmartSpot_SmartSDK_Firmware/smartspot-esp32.bin** 0x8000            
+      **C:/Users/HOPU/GitHub/SmartSpot_SmartSDK_Firmware/partitions_singleapp.bin**
       
       ~~~
          
