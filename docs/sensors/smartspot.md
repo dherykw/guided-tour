@@ -129,7 +129,7 @@ This chapter is a guide for Windows users. In case you use another OS, you can f
 
       $ python 
       /c/Users/HOPU/GitHub/espidf/components/esptool_py/esptool/esptool.py --chip esp32 
-      --port COM<b>X<b> --baud 115200 --before default_reset --after hard_reset 
+      --port COM<b>X</b> --baud 115200 --before default_reset --after hard_reset 
       write_flash -z --flash_mode dio --flash_freq 40m --flash_size detect 0x1000      
       <b>C:/Users/HOPU/GitHub/SmartSpot_SmartSDK_Firmware/bootloader.bin</b> 0x10000
       <b>C:/Users/HOPU/GitHub/SmartSpot_SmartSDK_Firmware/smartspot-esp32.bin</b> 0x8000            
