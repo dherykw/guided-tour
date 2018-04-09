@@ -125,17 +125,17 @@ This chapter is a guide for Windows users. In case you use another OS, you can f
       partitions\_singleapp.bin. Replace it by the bolded words of the following
       command. Use it to flash the esp32.
 
-      ~~~
+      <pre><code>
 
       $ python 
       /c/Users/HOPU/GitHub/espidf/components/esptool_py/esptool/esptool.py --chip esp32 
-      --port **COMX** --baud 115200 --before default_reset --after hard_reset 
+      --port COM<b>X<b> --baud 115200 --before default_reset --after hard_reset 
       write_flash -z --flash_mode dio --flash_freq 40m --flash_size detect 0x1000      
-      **C:/Users/HOPU/GitHub/SmartSpot_SmartSDK_Firmware/bootloader.bin** 0x10000
-      **C:/Users/HOPU/GitHub/SmartSpot_SmartSDK_Firmware/smartspot-esp32.bin** 0x8000            
-      **C:/Users/HOPU/GitHub/SmartSpot_SmartSDK_Firmware/partitions_singleapp.bin**
+      <b>C:/Users/HOPU/GitHub/SmartSpot_SmartSDK_Firmware/bootloader.bin</b> 0x10000
+      <b>C:/Users/HOPU/GitHub/SmartSpot_SmartSDK_Firmware/smartspot-esp32.bin</b> 0x8000            
+      <b>C:/Users/HOPU/GitHub/SmartSpot_SmartSDK_Firmware/partitions_singleapp.bin</b>
       
-      ~~~
+      <pre><code>
          
        ![Sensors](./images/python.png)
 
