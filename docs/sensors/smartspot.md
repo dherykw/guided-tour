@@ -135,7 +135,7 @@ This chapter is a guide for Windows users. In case you use another OS, you can f
       <b>C:/Users/HOPU/GitHub/SmartSpot_SmartSDK_Firmware/smartspot-esp32.bin</b> 0x8000            
       <b>C:/Users/HOPU/GitHub/SmartSpot_SmartSDK_Firmware/partitions_singleapp.bin</b>
       
-      <pre><code>
+      </code></pre>
          
        ![Sensors](./images/python.png)
 
